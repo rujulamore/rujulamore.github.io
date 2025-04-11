@@ -1,5 +1,5 @@
 import React from "react";
-import transcriptPdf from "/Users/rujulamore/Desktop/Rujula/my_web_page/rujula-portfolio_with_configs/src/assests/Transcript.pdf";
+import transcriptPdf from "../assests/Transcript.pdf";
 
 const Transcript = () => {
   return (
