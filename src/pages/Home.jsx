@@ -1,5 +1,5 @@
 import React from "react";
-import profileImage from "/Users/rujulamore/Desktop/Rujula/my_web_page/rujula-portfolio_with_configs/src/assests/Ghibli.png";
+import profileImage from "../assests/Ghibli.png";
 
 const Home = () => {
   return (
