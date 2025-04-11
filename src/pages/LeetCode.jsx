@@ -1,5 +1,5 @@
 import React from "react";
-import leetcodeImage from "/Users/rujulamore/Desktop/Rujula/my_web_page/rujula-portfolio_with_configs/src/assests/leetcode.png"; // Make sure the image is placed in src/assets/
+import leetcodeImage from "../assests/leetcode.png"; // Make sure the image is placed in src/assets/
 
 const LeetCode = () => {
   return (
