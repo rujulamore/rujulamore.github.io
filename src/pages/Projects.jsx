@@ -13,9 +13,24 @@ const Projects = () => {
             Capstone Project – AI Smart Advisor for Million Dollar Printing Press (HP)
           </h3>
           <p className="text-gray-700 text-sm">
-            Designed and implemented a solution leveraging a Large Language Model (LLM) integrated with a Hybrid RAG framework
-            to extract and standardize structured data from print report PDFs. Enabled similarity-based retrieval combining lexical and semantic techniques,
-            using a weighted scoring mechanism to return the top 2–3 contextually relevant matches.
+            
+            Capstone Project | Collaboration with HP Inc.
+
+            Partnered with HP to build an intelligent assistant that reduces configuration errors in industrial printing by retrieving and interpreting structured data from historical print job PDFs.
+
+            Designed a hybrid RAG pipeline combining BM25 lexical retrieval, structured filtering, numeric-aware re-ranking, and rule-based reasoning to answer operator queries with high precision.
+
+            Engineered a two-stage preprocessing system using OpenCV (for layout-aware checkbox and field extraction) and LLM-driven prompts (for semantic normalization into JSON).
+
+            Developed a robust query classification system to dynamically route questions into four reasoning engines: document search, ruleset evaluation, knowledge-based inference, and event retrieval.
+
+            Built a custom ruleset evaluation engine that parsed HTML tables to compute configuration recommendations (e.g., press speed, dryer power) using deterministic Python logic.
+
+            Achieved 98.5% accuracy in query classification, 99.06% document retrieval success (Top-10), and 91.44% precision in ruleset output, outperforming baseline LLM-only approaches.
+
+            Deployed system entirely on CPU infrastructure, optimizing performance and cost-efficiency under resource constraints.
+
+            Preparing this work for academic publication to advance structured-data-aware AI systems for industrial automation.
           </p>
         </div>
 
