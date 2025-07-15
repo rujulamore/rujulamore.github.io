@@ -25,8 +25,9 @@ const Projects = () => {
             Avocado Ripeness Prediction using Raman Spectroscopy and ML
           </h3>
           <p className="text-gray-700 text-sm">
-            Built a machine learning model to classify avocado ripeness using Raman spectroscopy data. Achieved 94.8% accuracy using CNNClassifier,
-            combining chemometric techniques and data preprocessing. Also applied regression analysis on the dataset for extended insights.
+            In collaboration with the Food Science department, I developed a machine learning pipeline to predict avocado ripeness using Raman spectroscopy data, aiming to enable rapid, non-invasive quality assessment in agricultural supply chains. The dataset comprised over 1,000 raw spectral samples, which I processed using interpolation and chemometric filtering to reduce noise and normalize measurements. I explored both traditional and deep learning approaches, including SVMs with SMOTE resampling and 13 different neural network architectures. Through extensive experimentation, ResNet-based models significantly outperformed classical ML techniques, achieving a classification accuracy of 94.8% and delivering superior generalization across ripeness classes. I also extended the framework to perform regression, enabling the prediction of continuous ripeness scores to support more granular quality control. This project not only deepened my expertise in signal preprocessing, model evaluation, and neural architecture search, but also reinforced the importance of interdisciplinary collaboration in solving real-world food technology challenges through applied machine learning.
+
+
           </p>
         </div>
 
