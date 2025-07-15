@@ -36,10 +36,13 @@ const Projects = () => {
             Mobile App for Real-Time Avocado Ripeness Detection
           </h3>
           <p className="text-gray-700 text-sm">
-            Developed a lightweight convolutional neural network pipeline for real-time avocado ripeness prediction, optimized for mobile deployment and sustainable food assessment.
-            Using a curated dataset of 1,000 images expanded to 6,000 via data augmentation, the system leveraged architectures like MobileNetV2, EfficientNet, and UNet to perform both classification and regression. UNet achieved the highest classification F1-score (0.86), while EfficientNet delivered superior regression performance with an MSE of 15.63 and R² of 0.96.
-            Weights (w) and biases (b) were fine-tuned during training to minimize loss, and all models were implemented in PyTorch before being exported to ONNX and converted to TensorFlow Lite for integration into a Flutter-based mobile app, enabling real-time, on-device inference.
-            Currently drafting a research paper to submit to a peer-reviewed journal in applied deep learning and edge AI.
+            Spearheaded the development of “FRESH AI,” a real-time avocado ripeness prediction system combining lightweight deep learning with mobile deployment, in close collaboration with the Food Science Department at Oregon State University.
+            Conducted rigorous, research-driven experimentation across the entire ML lifecycle—from dataset engineering to mobile deployment. Leveraged a foundational image dataset of 1,000 avocado images, expanded to over 6,000 through a custom OpenCV augmentation pipeline incorporating stochastic rotation (±30°), translation (±20 px), and brightness normalization to mitigate overfitting and improve generalization.
+            Extensively evaluated 3 state-of-the-art convolutional neural network architectures—U-Net, MobileNetV2, and EfficientNetB0—for both classification and regression tasks. Through methodical hyperparameter optimization and loss convergence tuning, U-Net achieved a peak classification accuracy of 93.41%, while EfficientNetB0 excelled in regression with a minimum MSE of 15.63 and an R² of 0.96, indicating high predictive fidelity.
+            All models were implemented in PyTorch with precise control over weight (w) and bias (b) initialization, followed by conversion to ONNX and TensorFlow Lite formats to enable efficient inference on mobile devices. The final pipeline was deployed through a Flutter-based application for real-time, camera-driven predictions—demonstrating edge ML deployment without reliance on cloud resources.
+            Currently authoring a research paper detailing the model architecture, training methodology, deployment pipeline, and its implications for sustainable food technologies and AI-driven agricultural diagnostics.
+
+
           </p>
         </div>
 
