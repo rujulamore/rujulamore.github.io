@@ -66,16 +66,6 @@ const Projects = () => {
           </p>
         </div>
 
-        {/* Technical Debt in Game Engines */}
-        <div className="bg-white shadow-md p-6 rounded-lg hover:shadow-xl transition">
-          <h3 className="text-xl font-semibold mb-2">
-            Analyzing Technical Debt in Open-Source Game Engines
-          </h3>
-          <p className="text-gray-700 text-sm">
-            Conducted a study on maintainability challenges in open-source game engines (Pygame). Utilized SonarQube
-            to detect technical debt, evaluate code quality, and recommend improvements for better long-term sustainability.
-          </p>
-        </div>
 
         {/* DialogueLLM */}
         <div className="bg-white shadow-md p-6 rounded-lg hover:shadow-xl transition">
