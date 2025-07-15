@@ -36,9 +36,10 @@ const Projects = () => {
             Mobile App for Real-Time Avocado Ripeness Detection
           </h3>
           <p className="text-gray-700 text-sm">
-            Designed a mobile application using lightweight CNN models (EfficientNetB0) with transfer learning.
-            Converted PyTorch models to TensorFlow Lite for Android integration, enabling real-time avocado ripeness prediction through live camera input.
-            Achieved R² score of 0.89.
+            Developed a lightweight convolutional neural network pipeline for real-time avocado ripeness prediction, optimized for mobile deployment and sustainable food assessment.
+Using a curated dataset of 1,000 images expanded to 6,000 via data augmentation, the system leveraged architectures like MobileNetV2, EfficientNet, and UNet to perform both classification and regression. UNet achieved the highest classification F1-score (0.86), while EfficientNet delivered superior regression performance with an MSE of 15.63 and R² of 0.96.
+Weights (w) and biases (b) were fine-tuned during training to minimize loss, and all models were implemented in PyTorch before being exported to ONNX and converted to TensorFlow Lite for integration into a Flutter-based mobile app, enabling real-time, on-device inference.
+Currently drafting a research paper to submit to a peer-reviewed journal in applied deep learning and edge AI.
           </p>
         </div>
 
