@@ -66,7 +66,6 @@ const Projects = () => {
           </p>
         </div>
 
-
         {/* DialogueLLM */}
         <div className="bg-white shadow-md p-6 rounded-lg hover:shadow-xl transition">
           <h3 className="text-xl font-semibold mb-2">
