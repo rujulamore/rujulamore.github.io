@@ -14,13 +14,13 @@ const About = () => {
 
       <div className="mb-6">
         <h3 className="text-xl font-semibold">Oregon State University, Corvallis, OR</h3>
-        <p className="italic">Master of Computer Science – AIML | GPA: 3.88</p>
+        <p className="italic">Master of Computer Science – AIML | GPA: 3.88/4.0 </p>
         <p>Relevant Coursework: Machine Learning, Intro to Computer Graphics, Deep Learning, Intelligent Agents, NLP, Topological Data Analysis</p>
       </div>
 
       <div>
         <h3 className="text-xl font-semibold">Savitribai Phule Pune University, India</h3>
-        <p className="italic">Bachelor of Technology (Information Technology) | GPA: 9.37/10</p>
+        <p className="italic">Bachelor of Technology (Information Technology) | GPA: 9.37/10 </p>
         <p>Relevant Coursework: Data Structures & Algorithms, OOP, AI, ML</p>
       </div>
     </section>
