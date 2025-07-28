@@ -14,7 +14,7 @@ const About = () => {
 
       <div className="mb-6">
         <h3 className="text-xl font-semibold">Oregon State University, Corvallis, OR</h3>
-        <p className="italic">Master of Computer Science – AIML | GPA: 4.0</p>
+        <p className="italic">Master of Computer Science – AIML | GPA: 3.88</p>
         <p>Relevant Coursework: Machine Learning, Intro to Computer Graphics, Deep Learning, Intelligent Agents, NLP, Topological Data Analysis</p>
       </div>
 
