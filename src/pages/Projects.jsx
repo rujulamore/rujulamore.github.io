@@ -1,4 +1,8 @@
 import React from "react";
+import Image from "../assests/avocado_poster.pdf";
+
+
+
 
 const Projects = () => {
   return (
@@ -64,7 +68,30 @@ const Projects = () => {
 
 
           </p>
-        </div>
+       
+       <div className="mt-6">
+  <h4 className="text-md font-semibold text-blue-600 mb-2">
+    Graduate Research Poster Presentation
+  </h4>
+  <embed
+    src={Image}
+    type="application/pdf"
+    className="rounded-lg shadow-lg border border-gray-200"
+    width="100%"
+    height="600px"
+  />
+  <p className="text-sm text-gray-600 mt-2">
+    Presented at the OSU Graduate Research Poster Presentation.
+    <a
+      href={Image}
+      download
+      className="text-blue-500 underline ml-1"
+    >
+      Download poster
+    </a>
+  </p>
+</div>
+ </div>
 
 
       </div>
