@@ -29,6 +29,7 @@ const Home = () => {
   return (
     <div className="px-4 mt-20 max-w-6xl mx-auto">
       {/* Intro */}
+      <div className="text-center mb-16">
       <TypingName />
         <p className="text-lg text-gray-700 max-w-2xl mx-auto leading-relaxed">
           Master’s student in Computer Science at Oregon State University.<br />
