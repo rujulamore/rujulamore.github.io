@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <nav className="bg-white shadow-md py-4 px-6 flex justify-center space-x-6 sticky top-0 z-50">
 
-      {["Home", "About", "Projects", "Skills", "Transcript", "Dance", "Contact"].map((page) => {
+      {["Home", "About", "Projects", "Skills", "Resume", "Dance", "Contact"].map((page) => {
 
 
   const path = page === "Home" ? "/" : `/${page.toLowerCase()}`;

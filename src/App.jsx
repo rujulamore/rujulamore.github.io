@@ -6,7 +6,7 @@ import About from "./pages/About";
 import Projects from "./pages/Projects";
 import Skills from "./pages/Skills";
 import Dance from "./pages/Dance";
-import Transcript from "./pages/Transcript";
+import Transcript from "./pages/Resume";
 import Contact from "./pages/Contact";
 
 function App() {
@@ -19,7 +19,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/skills" element={<Skills />} />
-          <Route path="/transcript" element={<Transcript />} />
+          <Route path="/resume" element={<Resume />} />
           <Route path="/dance" element={<Dance />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
