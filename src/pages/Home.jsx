@@ -1,12 +1,35 @@
 import React from "react";
 import profileImage from "../assests/Ghibli.png";
+import { useEffect, useState } from "react";
+
+const TypingName = () => {
+  const [text, setText] = useState("");
+  const fullText = "Hi, I’m Rujula";
+
+  useEffect(() => {
+    let i = 0;
+    const interval = setInterval(() => {
+      setText(fullText.slice(0, i + 1));
+      i++;
+      if (i === fullText.length) clearInterval(interval);
+    }, 100);
+    return () => clearInterval(interval);
+  }, []);
+
+  return (
+    <h1 className="text-5xl font-bold text-blue-700 mb-4">
+      {text}
+      <span className="blinking-cursor">|</span>
+    </h1>
+  );
+};
+
 
 const Home = () => {
   return (
     <div className="px-4 mt-20 max-w-6xl mx-auto">
       {/* Intro */}
-      <div className="text-center mb-16">
-        <h1 className="text-5xl font-bold text-blue-700 mb-4">Hi, I’m Rujula More 👋</h1>
+      <TypingName />
         <p className="text-lg text-gray-700 max-w-2xl mx-auto leading-relaxed">
           Master’s student in Computer Science at Oregon State University.<br />
           Specializing in Artificial Intelligence & Machine Learning.<br />
