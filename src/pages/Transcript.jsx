@@ -1,6 +1,7 @@
 import React from "react";
 import transcriptPdf from "../assests/Final_transcripts_OSU.pdf";
 
+
 const Transcript = () => {
   return (
     <section className="max-w-4xl mx-auto px-4 py-10">

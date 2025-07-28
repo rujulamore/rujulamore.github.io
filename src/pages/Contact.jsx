@@ -27,7 +27,7 @@ const Contact = () => {
             Rujula More
           </a>
         </p>
-  
+
       </div>
     </section>
   );

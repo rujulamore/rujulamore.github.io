@@ -1,4 +1,5 @@
 import React from "react";
+
 import profileImage from "../assests/me.jpeg";
 import { useEffect, useState } from "react";
 
@@ -6,6 +7,8 @@ import { useEffect, useState } from "react";
 const TypingName = () => {
   const [text, setText] = useState("");
   const fullText = "HI, I'M RUJULA";
+
+
 
   useEffect(() => {
     let i = 0;
@@ -18,12 +21,15 @@ const TypingName = () => {
   }, []);
 
   return (
+
     <h1 className="text-7xl font-bold mb-4 custom-font text-glossy-pink">
+
       {text}
       <span className="blinking-cursor">|</span>
     </h1>
   );
 };
+
 
 
 const ExperienceItem = ({ title, duration, bullets }) => {
@@ -48,6 +54,7 @@ const ExperienceItem = ({ title, duration, bullets }) => {
     </div>
   );
 };
+
 
 
 
@@ -105,11 +112,7 @@ const Home = () => {
     ]}
   />
 </div>
-
-
-
-
-    </div>
+  </div>
   );
 };
 
