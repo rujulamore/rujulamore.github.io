@@ -6,7 +6,7 @@ import About from "./pages/About";
 import Projects from "./pages/Projects";
 import Skills from "./pages/Skills";
 import Dance from "./pages/Dance";
-import Transcript from "./pages/Resume";
+import Resume from "./pages/Resume";
 import Contact from "./pages/Contact";
 
 function App() {
