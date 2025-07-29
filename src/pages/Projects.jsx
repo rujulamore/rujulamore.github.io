@@ -35,6 +35,16 @@ const Projects = () => {
             Deployed system entirely on CPU infrastructure, optimizing performance and cost-efficiency under resource constraints.
 
             Preparing this work for academic publication to advance structured-data-aware AI systems for industrial automation.
+
+            Preparing this work for academic publication to advance structured-data-aware AI systems for industrial automation.{" "}
+      <a
+        href="https://drive.google.com/file/d/1nV1zvb-E_xjlzhrv7vW0ATlnI6ZqmLTp/view?usp=sharing"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-blue-600 hover:underline"
+      >
+        View Paper
+      </a>
           </p>
         </div>
 
