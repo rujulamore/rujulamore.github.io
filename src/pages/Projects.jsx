@@ -59,7 +59,15 @@ const Projects = () => {
             I explored both traditional and deep learning approaches, including SVMs with SMOTE resampling and 13 different neural network architectures. 
             Through extensive experimentation, ResNet-based models significantly outperformed classical ML techniques, achieving a classification accuracy of 94.8% and delivering superior generalization across ripeness classes.
             I also extended the framework to perform regression, enabling the prediction of continuous ripeness scores to support more granular quality control. This project not only deepened my expertise in signal preprocessing, model evaluation, and neural architecture search, but also reinforced the importance of interdisciplinary collaboration in solving real-world food technology challenges through applied machine learning.
-
+Was one of the most challenging projects I worked on I have a small article written on this.{" "}
+      <a
+        href="https://medium.com/@rujula2001/unlocking-insights-from-raman-spectroscopy-data-using-machine-learning-406bf24a7f49"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-blue-600 hover:underline"
+      >
+        View Paper
+      </a>
 
           </p>
         </div>
