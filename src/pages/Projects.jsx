@@ -66,7 +66,7 @@ Was one of the most challenging projects I worked on I have a small article writ
         rel="noopener noreferrer"
         className="text-blue-600 hover:underline"
       >
-        View Paper
+        View Article
       </a>
 
           </p>
