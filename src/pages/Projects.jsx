@@ -36,7 +36,7 @@ const Projects = () => {
 
             Preparing this work for academic publication to advance structured-data-aware AI systems for industrial automation.
 
-            Preparing this work for academic publication to advance structured-data-aware AI systems for industrial automation.{" "}
+                  Preparing this work for academic publication to advance structured-data-aware AI systems for industrial automation.{" "}
       <a
         href="https://drive.google.com/file/d/1nV1zvb-E_xjlzhrv7vW0ATlnI6ZqmLTp/view?usp=sharing"
         target="_blank"
