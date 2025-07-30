@@ -17,7 +17,7 @@ body {
   @layer utilities {
 
       .text-glossy-pink {
-       color: white;
+       color: black;
        font-weight: 800;
       /*background: linear-gradient(135deg, #8e2de2, #4a00e0, #ff0080, #ff5f6d);
       -webkit-background-clip: text;
