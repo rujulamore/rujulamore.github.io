@@ -17,12 +17,14 @@ body {
   @layer utilities {
 
       .text-glossy-pink {
-      background: linear-gradient(135deg, #8e2de2, #4a00e0, #ff0080, #ff5f6d);
+       color: white;
+       font-weight: 800;
+      /*background: linear-gradient(135deg, #8e2de2, #4a00e0, #ff0080, #ff5f6d);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       background-size: 300% 300%;
       animation: shine 4s ease-in-out infinite;
-      font-weight: 800;        
+      font-weight: 800;*/        
     }
       .animate-fade-in {
         animation: fadeIn 1.2s ease-out forwards;
