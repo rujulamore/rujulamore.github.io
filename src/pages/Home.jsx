@@ -129,7 +129,7 @@ const Home = () => {
         {/* CTA buttons */}
         <div className="mt-6 flex flex-col items-center justify-center gap-3 sm:flex-row">
           <a
-            href="#projects"
+            href="/Projects"
             className="w-full sm:w-auto inline-flex items-center justify-center rounded-xl px-5 py-3 text-sm font-semibold text-white
                        bg-gradient-to-r from-pink-500 to-blue-600 hover:from-pink-600 hover:to-blue-700
                        shadow-md hover:shadow-lg transition-all"
@@ -137,7 +137,7 @@ const Home = () => {
             View Projects
           </a>
           <a
-            href="/resume"
+            href="/Resume"
             className="w-full sm:w-auto inline-flex items-center justify-center rounded-xl px-5 py-3 text-sm font-semibold
                        text-blue-700 bg-white border border-blue-200 hover:border-blue-300 hover:bg-blue-50
                        shadow-sm hover:shadow transition-all"
