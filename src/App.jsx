@@ -19,10 +19,6 @@ function App() {
           <Home />
         </section>
 
-        <section id="about" className="min-h-screen scroll-mt-20 py-6">
-          <About />
-        </section>
-
         <section id="projects" className="min-h-screen scroll-mt-20 py-6">
           <Projects />
         </section>
@@ -37,6 +33,10 @@ function App() {
 
         <section id="resume" className="min-h-screen scroll-mt-20 py-6">
           <Resume />
+        </section>
+
+        <section id="about" className="min-h-screen scroll-mt-20 py-6">
+          <About />
         </section>
 
         <section id="contact" className="min-h-screen scroll-mt-20 py-6">
