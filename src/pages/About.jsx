@@ -62,7 +62,7 @@ const About = () => {
 
     <p>Like many international students, I faced my share of challenges. I worked part-time as a <strong>tech support assistant</strong>, managing Canvas pages and later helping with <strong>inventory management</strong> at the College of Engineering. Balancing everything wasn’t easy, but I made sure my grades never suffered.</p>
 
-    <p>Then came one of the hardest chapters of my life in the summer of <strong>2024</strong>, I was diagnosed with <strong>Bell’s Palsy</strong>. It was a terrifying experience. I was far from home, working part-time, and unable to fly because of medical restrictions. After a month of struggling on my own, I finally decided to go back to <strong>India</strong> to recover.</p>
+    <p>Then came one of the hardest chapters of my life in the summer of <strong>2024</strong>, I fell very sick. It was a terrifying experience. I was far from home, working part-time, and unable to fly because of medical restrictions. After a month of struggling on my own, I finally decided to go back to <strong>India</strong> to recover.</p>
 
     <p>Those two months at home were a mix of healing and reflection. When it was time to return to the U.S., I was scared and uncertain unsure if coming back was the right decision for me. That’s when I expressed my concerns to my doctor, and I’ll never forget what he said:</p>
 
