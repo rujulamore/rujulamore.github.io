@@ -80,7 +80,7 @@ const About = () => {
 
     <h3 className="text-xl sm:text-2xl font-semibold leading-snug mb-2">Life Now</h3>
 
-    <p>After graduating, I moved to <strong>New Jersey</strong> to be close to my aunt and uncle while job hunting. Their support during that time meant everything to me. I’m now working as a <strong>Software Engineer</strong>, continuing to grow, learn, and build meaningful projects. On weekends, I love attending <strong>tech events</strong> and meeting like-minded people it keeps me inspired and connected to the fast-moving world of AI.</p>
+    <p>After graduating, I moved to <strong>New Jersey</strong> to be close to my aunt and uncle while job hunting. Their support during that time meant everything to me. I’m now working as a <strong>Software Engineer</strong> in PA, continuing to grow, learn, and build meaningful projects. On weekends, I love attending <strong>tech events</strong> and meeting like-minded people it keeps me inspired and connected to the fast-moving world of AI.</p>
 
     <p>And of course, <strong>dance</strong> is still my forever escape. I may not practice as much as I used to, but <strong>Kathak</strong> will always be a part of me a reminder of where I came from, how far I’ve come, and everything I’m yet to become. 💫</p>
 </p>
